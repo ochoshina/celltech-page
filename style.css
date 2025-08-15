@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  background-color: #1603be;
+  color: white;
+  padding: 0;
+  text-align: center;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: #010fca;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero,
+.servicos,
+.loja,
+.quem-somos,
+.horario,
+.depoimentos,
+.contato,
+.whatsapp,
+.mapa {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #005f99;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.servicos h2,
+.loja h2,
+.quem-somos h2,
+.horario h2,
+.depoimentos h2,
+.contato h2 {
+  color: #005f99;
+  margin-bottom: 20px;
+}
+
+.servicos ul,
+.loja p,
+.quem-somos p {
+  list-style: none;
+  max-width: 700px;
+  margin: auto;
+}
+
+.servicos li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.horario ul {
+  list-style: none;
+  padding: 0;
+}
+
+.horario li {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.depoimentos .card {
+  background-color: #f0f8ff;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+}
+
+.contato form input,
+.contato form textarea {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+}
+
+.contato button {
+  background-color: #005f99;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.whatsapp a {
+  background-color: #25d366;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #1603be;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 0px 0px;
+}
+
+.redes-sociais a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#voltar-topo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #005f99;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: none;
+  z-index: 1000;
+}
